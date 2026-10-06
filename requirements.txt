@@ -1,0 +1,20 @@
+# Linux CUDA PyTorch install example
+# Activate your venv first:
+# source .venv/bin/activate
+
+
+# Windows CUDA PyTorch install example
+# Activate your venv first:
+# .venv\Scripts\activate
+
+--index-url https://download.pytorch.org/whl/cu128
+
+torch
+torchvision
+torchaudio
+
+--index-url https://pypi.org/simple
+
+pandas
+matplotlib
+tabulate
